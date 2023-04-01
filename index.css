@@ -1,0 +1,11 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #63d9db;
+  top: 0;
+  left: 0;
+}
+
+.header-title {
+  text-align: center;
+}
