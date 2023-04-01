@@ -1,11 +1,59 @@
+body {
+  margin: 0;
+}
+
 .header {
   position: fixed;
   width: 100%;
   background-color: #63d9db;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .header-title {
   text-align: center;
+  font-size: 1.2rem;
+}
+
+.container-1 {
+  position: absolute;
+  width: 250px;
+  background-color: #f2f52f;
+  top: 64px;
+  left: 5%;
+}
+
+.container-2 {
+  position: absolute;
+  width: 250px;
+  background-color: #2ff5a3;
+  right: 25%;
+  top: 176px;
+}
+
+.container-3 {
+  position: absolute;
+  width: 250px;
+  background-color: #de2ff5;
+  left: 15%;
+  top: 288px;
+}
+
+.container-4 {
+  position: absolute;
+  width: 250px;
+  background-color: #f59f2f;
+  right: 5%;
+  top: 400px;
+}
+
+.container-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-text {
+  margin: 10px;
+  font-size: 0.6rem;
 }
