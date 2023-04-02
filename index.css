@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #63d9db;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.home {
+  position: absolute;
+  width: 250px;
+  background-color: #f2f52f;
+  left: 5%;
+  top: 100px;
+}
+
+.about {
+  position: absolute;
+  width: 250px;
+  background-color: #2ff5a3;
+  left: 45lvi;
+
+}
+
+.works {
+  position: absolute;
+  width: 250px;
+  background-color: #de2ff5;
+  left: -25lvi;
+}
+
+.contacts {
+  position: absolute;
+  width: 250px;
+  background-color: #f59f2f;
+  left: 45lvi;
+}
+
+.container-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-text {
+  margin: 10px;
+  font-size: 0.6rem;
+}
+
+.dropbutton {
+  background-color: #16147a;
+  color: white;
+}
+
+.dropmenu {
+  position: relative;
+  right: 10px;
+  display: block;
+  float: right;
+}
+
+.dropmenu-items {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  background-color: #5e8ebb;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropmenu-items a {
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropmenu-items a:hover {
+  background-color: #b0dcee;
+}
+
+.dropmenu:hover .dropmenu-items {
+  display: block;
+}
+
+.dropmenu:hover .dropbutton {
+  background-color: #60afdd;
+}
