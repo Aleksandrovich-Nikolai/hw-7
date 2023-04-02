@@ -18,6 +18,10 @@ body {
 }
 
 .home {
+  padding-top: 90px;
+  margin-top: -90px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
   position: absolute;
   width: 250px;
   background-color: #f2f52f;
