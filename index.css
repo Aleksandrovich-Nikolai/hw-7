@@ -3,74 +3,23 @@ body {
 }
 
 .header {
-  position: fixed;
-  width: 100%;
-  height: 80px;
+  padding: 20px;
   background-color: #63d9db;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .header-title {
   text-align: center;
-  font-size: 1.4rem;
 }
 
-.home {
-  padding-top: 90px;
-  margin-top: -90px;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-  position: absolute;
-  width: 250px;
-  background-color: #f2f52f;
-  left: 5%;
-  top: 100px;
+.nav {
+  position: relative;
+  margin-left: auto;
+  width: 50px;
 }
 
-.about {
-  position: absolute;
-  width: 250px;
-  background-color: #2ff5a3;
-  left: 45lvi;
-
-}
-
-.works {
-  position: absolute;
-  width: 250px;
-  background-color: #de2ff5;
-  left: -25lvi;
-}
-
-.contacts {
-  position: absolute;
-  width: 250px;
-  background-color: #f59f2f;
-  left: 45lvi;
-}
-
-.container-title {
-  text-align: center;
-  font-size: 1rem;
-}
-
-.container-text {
-  margin: 10px;
-  font-size: 0.6rem;
-}
-
-.dropbutton {
+.navbutton {
   background-color: #16147a;
   color: white;
-}
-
-.dropmenu {
-  position: relative;
-  right: 10px;
-  display: block;
-  float: right;
 }
 
 .dropmenu-items {
@@ -95,10 +44,48 @@ body {
   background-color: #b0dcee;
 }
 
-.dropmenu:hover .dropmenu-items {
+.nav:hover .dropmenu-items {
   display: block;
 }
 
 .dropmenu:hover .dropbutton {
   background-color: #60afdd;
+}
+
+.container {
+  padding: 10px;
+}
+
+.home {
+  width: 250px;
+  background-color: #f2f52f;
+  margin: 30px auto 0 5vw;
+}
+
+.about {
+  width: 250px;
+  background-color: #2ff5a3;
+  margin: 0 20vw 0 auto;
+}
+
+.works {
+  width: 250px;
+  background-color: #de2ff5;
+  margin-left: 25vw;
+}
+
+.contacts {
+  width: 250px;
+  background-color: #f59f2f;
+  margin: 0 10vw 30px auto;
+}
+
+.container-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-text {
+  margin: 10px;
+  font-size: 0.6rem;
 }
